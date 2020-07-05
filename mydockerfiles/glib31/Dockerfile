@@ -25,7 +25,7 @@ RUN dpkg --add-architecture i386 && apt-get update && \
     lxterminal && \
     apt-get clean
 
-RUN pip install --no-cache-dir pwntools && \
+RUN pip3 install --no-cache-dir pwntools && \
     gem install one_gadget
 
 RUN cd ~/ && \
