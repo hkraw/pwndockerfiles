@@ -4,7 +4,7 @@ RUN dpkg --add-architecture i386 && apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -qy \
     git nasm  python \
     build-essential \
-    python-dev python-setuptools \
+    python-dev python-setuptools python3-pip \
     libc6-dbg \
     libc6-dbg:i386 \
     gcc-multilib \
