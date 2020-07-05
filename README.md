@@ -13,17 +13,15 @@ Then run `run.sh` from anywhere to mount the current directory under `/host` of 
 
 
 
-`nasm
-gdb-pwndbg,
-pwngdb
-fish
-ltrace, strace,
-socat,
-netcat,
-ruby,
-vim,
-pwntools
-curl
-gcc
-
-`
+#nasm
+#gdb-pwndbg,
+#pwngdb
+#fish
+#ltrace, strace,
+#socat,
+#netcat,
+#ruby,
+#vim,
+#pwntools
+#curl
+#gcc
