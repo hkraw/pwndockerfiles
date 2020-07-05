@@ -25,3 +25,9 @@ Then run `run.sh` from anywhere to mount the current directory under `/host` of 
 ## pwntools
 ## curl
 ## gcc
+
+# use
+
+To debug, Use two terminals.
+One to run the process and other two debug the process using gdb.
+No need to run editor from the docker itself. edit the scripts from host machine :P
