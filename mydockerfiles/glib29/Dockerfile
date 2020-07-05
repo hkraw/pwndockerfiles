@@ -1,5 +1,7 @@
 FROM ubuntu:19.04
 
+RUN sed -i -e 's|disco|eoan|g' /etc/apt/sources.list
+
 RUN dpkg --add-architecture i386 && apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -qy \
     git nasm  python \
