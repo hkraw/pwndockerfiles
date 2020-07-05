@@ -26,7 +26,7 @@ Then run `run.sh` from anywhere to mount the current directory under `/host` of 
 ## curl
 ## gcc
 
-# use
+# DEBUG WITH GDB
 
 To debug, Use two terminals.
 One to run the process and other two debug the process using gdb.
